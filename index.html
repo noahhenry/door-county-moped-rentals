@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Door County Moped Rentals — Delivered to your beach</title>
+<meta name="description" content="Mopeds delivered anywhere across Door County. Family-run, rated 5.0 on Google. Book online in about a minute — we deliver, give you a quick lesson, and you ride.">
+<script src="https://fareharbor.com/embeds/api/v1/?asr=1" async></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0B2E31;--lake:#12595F;--lake-deep:#0E4348;--sun:#F4A31D;--sun-deep:#DE8E06;
+  --paper:#FBF9F2;--sand:#EFE3CC;--foam:#D7ECE7;--line:rgba(11,46,49,.14);
+  --ph:#FCEBC4;--ph-edge:#E9B84A;
+  --display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Figtree',system-ui,sans-serif;--mono:'Space Mono',ui-monospace,monospace;
+  --wrap:1140px;--r:16px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3{font-family:var(--display);font-weight:800;line-height:1.02;margin:0;letter-spacing:-.01em}
+p{margin:0}a{color:inherit}img{max-width:100%;display:block}
+.wrap{width:100%;max-width:var(--wrap);margin-inline:auto;padding-inline:20px}
+.eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--lake);font-weight:700}
+.eyebrow.on-dark{color:var(--sun)}
+.band{padding-block:clamp(56px,9vw,104px)}
+.btn{display:inline-flex;align-items:center;gap:.5em;justify-content:center;font-family:var(--display);font-weight:700;font-size:1.02rem;padding:.85em 1.4em;border-radius:100px;border:2px solid transparent;text-decoration:none;cursor:pointer;transition:transform .15s ease,box-shadow .2s ease,background .2s ease}
+.btn-primary{background:var(--sun);color:var(--ink);box-shadow:0 8px 0 -2px rgba(222,142,6,.55)}
+.btn-primary:hover{background:var(--sun-deep);transform:translateY(-2px);box-shadow:0 12px 0 -2px rgba(222,142,6,.55)}
+.btn-primary:active{transform:translateY(1px);box-shadow:0 4px 0 -2px rgba(222,142,6,.55)}
+.btn-ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn-ghost:hover{border-color:var(--ink);transform:translateY(-2px)}
+.btn-ghost.on-dark{color:var(--paper);border-color:rgba(255,255,255,.35)}.btn-ghost.on-dark:hover{border-color:var(--paper)}
+.btn .arrow{transition:transform .2s ease}.btn:hover .arrow{transform:translateX(3px)}
+:focus-visible{outline:3px solid var(--sun);outline-offset:2px;border-radius:6px}
+.top{position:sticky;top:0;z-index:60;background:rgba(251,249,242,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:66px;gap:16px}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-family:var(--display);font-weight:800;font-size:1.08rem;letter-spacing:-.02em}
+.brand svg{flex:0 0 auto}
+.brand span small{display:block;font-family:var(--mono);font-weight:400;font-size:.58rem;letter-spacing:.12em;color:var(--lake);text-transform:uppercase;margin-top:1px}
+.top-nav{display:none;gap:26px;font-weight:500}.top-nav a{text-decoration:none;font-size:.95rem;opacity:.85}.top-nav a:hover{opacity:1;color:var(--lake)}
+.top-cta{display:flex;align-items:center;gap:14px}
+.top-phone{display:none;font-family:var(--mono);font-size:.85rem;text-decoration:none;white-space:nowrap}.top-phone:hover{color:var(--lake)}
+.top .btn{padding:.6em 1.1em;font-size:.9rem}
+@media(min-width:900px){.top-nav{display:flex}.top-phone{display:inline}}
+@media(max-width:899px){.top .btn{display:none}.brand{font-size:1rem}body{padding-bottom:80px}}
+.hero{position:relative;background:var(--ink);color:var(--paper);overflow:hidden}
+.hero .wrap{position:relative;z-index:2;display:grid;gap:34px;padding-block:clamp(44px,7vw,88px)}
+.hero-copy{display:flex;flex-direction:column;align-items:flex-start;gap:15px}
+.hero-copy>*{margin-top:0}
+section[id],[id]{scroll-margin-top:80px}
+.hero h1{font-size:clamp(2.5rem,8.4vw,5.1rem);color:var(--paper);max-width:14ch}.hero h1 em{font-style:normal;color:var(--sun)}
+.hero-sub{font-size:clamp(1.05rem,2.4vw,1.28rem);max-width:46ch;color:rgba(251,249,242,.85);margin-top:6px}
+.hero-cta{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:4px}
+.hero-cta .note{font-family:var(--mono);font-size:.78rem;color:rgba(251,249,242,.7)}
+.proof{display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:100px;padding:8px 15px;margin-top:4px}
+.proof .stars{color:var(--sun);letter-spacing:2px;font-size:.95rem}.proof b{font-family:var(--display);font-weight:700}
+.proof small{font-family:var(--mono);font-size:.74rem;color:rgba(251,249,242,.72)}
+.hero-photo{position:relative;border-radius:var(--r);min-height:230px;background:radial-gradient(120% 90% at 80% 10%, rgba(244,163,29,.28), transparent 55%),linear-gradient(160deg,var(--lake) 0%,var(--lake-deep) 70%);border:1px solid rgba(255,255,255,.12);overflow:hidden;display:flex;align-items:flex-end}
+.hero-photo .cap{position:relative;z-index:2;font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;color:rgba(255,255,255,.9);background:rgba(11,46,49,.5);padding:6px 10px;border-radius:8px;margin:14px}
+.scooter-art{position:absolute;inset:0;width:100%;height:100%;opacity:.92;padding:14%}
+.hero-stats{display:flex;flex-wrap:wrap;gap:20px 32px;padding-top:20px;margin-top:6px;border-top:1px solid rgba(255,255,255,.14)}
+.hero-stats div{font-family:var(--mono);font-size:.8rem;color:rgba(251,249,242,.72)}
+.hero-stats b{display:block;font-family:var(--display);font-size:1.6rem;color:var(--sun);font-weight:800}
+@media(min-width:820px){.hero .wrap{grid-template-columns:1.05fr .95fr;align-items:center;gap:48px}.hero-photo{min-height:440px}}
+.trust{background:var(--sun);color:var(--ink)}
+.trust-grid{display:grid;grid-template-columns:1fr}
+.trust-item{display:flex;gap:12px;align-items:flex-start;padding:18px 4px}
+.trust-item + .trust-item{border-top:1px solid rgba(11,46,49,.15)}
+.trust-item svg{flex:0 0 auto;margin-top:2px}
+.trust-item b{font-family:var(--display);font-weight:700;font-size:1.02rem}.trust-item small{display:block;font-size:.9rem;opacity:.8}
+@media(min-width:760px){.trust-grid{grid-template-columns:repeat(4,1fr)}.trust-item{flex-direction:column;padding:26px 22px}.trust-item + .trust-item{border-top:none;border-left:1px solid rgba(11,46,49,.15)}}
+.head{display:grid;gap:12px;max-width:52ch;margin-bottom:40px}.head h2{font-size:clamp(1.9rem,5vw,3rem)}.head p{font-size:1.08rem;opacity:.82}
+.price-grid{display:grid;grid-template-columns:1fr;gap:14px}
+.price{display:flex;align-items:baseline;justify-content:space-between;gap:16px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px;transition:border-color .2s ease,transform .2s ease}
+.price:hover{border-color:var(--lake);transform:translateX(4px)}
+.price .l{display:flex;flex-direction:column;gap:2px}.price .l b{font-family:var(--display);font-size:1.15rem;font-weight:700}
+.price .l small{font-family:var(--mono);font-size:.75rem;color:var(--lake);letter-spacing:.04em}
+.price .amt{font-family:var(--display);font-weight:800;font-size:1.7rem;white-space:nowrap}
+.price.feature{background:var(--foam);border-color:var(--lake)}
+.price .tag{font-family:var(--mono);font-size:.62rem;background:var(--lake);color:#fff;padding:3px 10px;border-radius:100px;letter-spacing:.08em;text-transform:uppercase;align-self:flex-start;white-space:nowrap;margin-bottom:5px}
+.price.feature{align-items:center}
+.price-foot{margin-top:22px;display:flex;flex-wrap:wrap;gap:16px 24px;align-items:center}
+.price-foot .disc{font-family:var(--mono);font-size:.88rem;background:var(--sand);padding:10px 14px;border-radius:10px}
+@media(min-width:720px){.price-grid{grid-template-columns:1fr 1fr}}
+.how{background:var(--ink);color:var(--paper);position:relative;overflow:hidden}
+.how .head h2{color:var(--paper)}.how .head p{color:rgba(251,249,242,.8)}
+.steps{display:grid;grid-template-columns:1fr;position:relative}
+.step{position:relative;padding:26px 0 26px 56px}.step:not(:last-child){border-bottom:1px dashed rgba(255,255,255,.16)}
+.step .num{position:absolute;left:0;top:24px;width:38px;height:38px;border-radius:50%;background:var(--sun);color:var(--ink);font-family:var(--display);font-weight:800;display:flex;align-items:center;justify-content:center;font-size:1rem}
+.step h3{font-size:1.35rem;color:var(--paper);margin-bottom:6px}.step p{color:rgba(251,249,242,.82);max-width:52ch}
+@media(min-width:820px){.steps{grid-template-columns:repeat(3,1fr);gap:8px}.step{padding:64px 22px 0 22px}.step:not(:last-child){border-bottom:none}.step .num{left:22px;top:0}.steps::before{content:"";position:absolute;top:19px;left:41px;width:calc((200% - 32px)/3 + 16px);height:0;border-top:2px dashed rgba(244,163,29,.5)}}
+.about{background:var(--paper)}
+.about .wrap{display:grid;grid-template-columns:1fr;gap:30px;align-items:start}
+.about .txt h2{font-size:clamp(1.8rem,4.6vw,2.6rem);margin-bottom:14px}
+.about .txt p{opacity:.85;font-size:1.06rem;max-width:56ch}
+.about .txt p+p{margin-top:12px}
+.about-photo{border-radius:var(--r);border:1px solid var(--line);overflow:hidden;background:var(--foam)}
+.about-photo img{width:100%;height:auto;display:block}
+.about-photo .cap{font-family:var(--mono);font-size:.7rem;color:var(--lake-deep);background:rgba(255,255,255,.7);padding:5px 10px;border-radius:8px;margin:14px}
+@media(min-width:820px){.about .wrap{grid-template-columns:1fr 1fr}}
+.ride{background:var(--sand)}
+.ride-grid{display:grid;grid-template-columns:1fr;gap:16px}
+.spot{background:var(--paper);border-radius:var(--r);padding:24px;border:1px solid var(--line)}
+.spot h3{font-size:1.3rem;margin-bottom:10px;display:flex;align-items:center;gap:10px}.spot h3 svg{flex:0 0 auto}
+.spot p{opacity:.85;margin-bottom:14px}
+.route{display:flex;flex-wrap:wrap;gap:8px}
+.route span{font-family:var(--mono);font-size:.76rem;background:var(--foam);color:var(--lake-deep);padding:5px 11px;border-radius:100px}
+.badge-incl{display:inline-block;font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;background:var(--sun);color:var(--ink);padding:4px 10px;border-radius:100px;font-weight:700}
+@media(min-width:820px){.ride-grid{grid-template-columns:1.3fr 1fr}.spot.wide{grid-row:span 2}}
+.fleet-grid{display:grid;grid-template-columns:1fr;gap:18px}
+.moped-card{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.moped-card .pic{aspect-ratio:4/3;background:#fff;border-bottom:1px solid var(--line);position:relative}
+.moped-card .pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:14px}
+.moped-card .pic .cap{font-family:var(--mono);font-size:.68rem;color:var(--lake-deep);background:rgba(255,255,255,.7);padding:5px 9px;border-radius:8px}
+.moped-card .body{padding:18px 20px}.moped-card .body b{font-family:var(--display);font-size:1.12rem;font-weight:700}
+.moped-card .body small{display:block;font-family:var(--mono);font-size:.74rem;color:var(--lake);margin-top:3px}
+.fleet-note{margin-top:22px;max-width:62ch}
+@media(min-width:720px){.fleet-grid{grid-template-columns:repeat(3,1fr)}}
+.reviews{background:var(--lake);color:var(--paper)}
+.reviews .head h2{color:var(--paper)}.reviews .head p{color:rgba(251,249,242,.85)}
+.rating-summary{display:flex;flex-wrap:wrap;align-items:center;gap:18px 28px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:var(--r);padding:22px 26px;margin-bottom:26px}
+.rating-summary .score{font-family:var(--display);font-weight:800;font-size:3rem;line-height:1}
+.rating-summary .stars{color:var(--sun);letter-spacing:3px;font-size:1.25rem}
+.rating-summary .sub{font-family:var(--mono);font-size:.8rem;color:rgba(251,249,242,.78);margin-top:4px}
+.rating-summary .g{margin-left:auto}
+.rev-grid{display:grid;grid-template-columns:1fr;gap:16px}
+.rev{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:var(--r);padding:22px}
+.rev .stars{color:var(--sun);letter-spacing:3px;font-size:1.05rem;margin-bottom:10px}
+.rev .who{font-family:var(--mono);font-size:.78rem;color:rgba(251,249,242,.7);margin-top:14px}
+.rev-cta{margin-top:24px;display:flex;flex-wrap:wrap;gap:14px}
+@media(min-width:820px){.rev-grid{grid-template-columns:repeat(3,1fr)}}
+.faq-list{display:grid;gap:10px;max-width:820px}
+.q{border:1px solid var(--line);border-radius:12px;background:#fff;overflow:hidden}
+.q summary{list-style:none;cursor:pointer;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;gap:16px;font-family:var(--display);font-weight:700;font-size:1.05rem}
+.q summary::-webkit-details-marker{display:none}
+.q summary .ic{flex:0 0 auto;width:24px;height:24px;border-radius:50%;border:2px solid var(--lake);position:relative;transition:background .2s ease}
+.q summary .ic::before,.q summary .ic::after{content:"";position:absolute;background:var(--lake);top:50%;left:50%;transform:translate(-50%,-50%);transition:opacity .2s ease}
+.q summary .ic::before{width:10px;height:2px}.q summary .ic::after{width:2px;height:10px}
+.q[open] summary .ic::after{opacity:0}.q[open] summary .ic{background:var(--foam)}
+.q .a{padding:0 20px 20px;opacity:.86;max-width:66ch}
+.final{background:var(--ink);color:var(--paper);text-align:center}
+.final h2{font-size:clamp(2rem,6vw,3.4rem);color:var(--paper);max-width:18ch;margin-inline:auto}.final h2 em{font-style:normal;color:var(--sun)}
+.final p{margin:16px auto 28px;color:rgba(251,249,242,.82);max-width:44ch;font-size:1.08rem}
+.final .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
+.foot{background:var(--lake-deep);color:rgba(251,249,242,.8);font-size:.92rem}
+.foot .wrap{display:grid;gap:28px;grid-template-columns:1fr}
+.foot .brand span{color:var(--paper)}
+.foot a{color:rgba(251,249,242,.8);text-decoration:none}.foot a:hover{color:var(--sun)}
+.foot h4{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--sun);margin:0 0 12px;font-weight:700}
+.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.foot .fine{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;font-family:var(--mono);font-size:.72rem;color:rgba(251,249,242,.55)}
+@media(min-width:760px){.foot .wrap{grid-template-columns:1.6fr 1fr 1fr}}
+.ph{background:var(--ph);color:#7a5a05;border-bottom:2px dashed var(--ph-edge);padding:0 5px;border-radius:4px 4px 0 0;font-weight:600;white-space:nowrap}
+.ph-block{background:var(--ph);border:1.5px dashed var(--ph-edge);border-radius:12px;padding:16px 18px;color:#7a5a05;font-family:var(--mono);font-size:.85rem;line-height:1.5}
+.ph-block b{color:#5f4604}
+.rev .ph-block{background:rgba(252,235,196,.16);border-color:rgba(244,163,29,.5);color:rgba(251,249,242,.9)}.rev .ph-block b{color:var(--sun)}
+.mobibar{position:fixed;left:0;right:0;bottom:0;z-index:70;display:flex;background:var(--ink);border-top:1px solid rgba(255,255,255,.1);padding:10px 12px calc(10px + env(safe-area-inset-bottom));transform:translateY(120%);transition:transform .3s ease}
+.mobibar.show{transform:translateY(0)}
+.mobibar a{flex:1;text-align:center;text-decoration:none;font-family:var(--display);font-weight:700;padding:13px;border-radius:100px;font-size:1rem}
+.mobibar .call{color:var(--paper);border:2px solid rgba(255,255,255,.28);margin-right:8px}
+.mobibar .book{background:var(--sun);color:var(--ink);flex:1.4}
+@media(min-width:900px){.mobibar{display:none}}
+.reveal{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease}.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+.legend{background:var(--ink);color:rgba(251,249,242,.7);font-family:var(--mono);font-size:.72rem;text-align:center;padding:9px 16px;border-bottom:1px solid rgba(255,255,255,.08)}
+.legend .chip{background:var(--ph);color:#7a5a05;padding:1px 6px;border-radius:4px;border-bottom:2px dashed var(--ph-edge)}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <symbol id="moped" viewBox="0 0 120 70">
+    <circle cx="32" cy="54" r="11" fill="none" stroke="var(--c1)" stroke-width="5"/>
+    <circle cx="90" cy="54" r="11" fill="none" stroke="var(--c1)" stroke-width="5"/>
+    <g fill="var(--c1)" stroke="var(--c1)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+      <rect x="36" y="47" width="34" height="6" rx="3"/>
+      <path d="M18 50 V40 Q18 31 28 31 H50 Q54 31 54 37 V50 Z"/>
+      <rect x="21" y="27" width="30" height="8" rx="4"/>
+      <path d="M58 52 L69 52 L99 27 Q100 24 96 22 L88 22 Q84 22 82 26 L60 48 Z"/>
+      <rect x="88" y="16" width="20" height="6" rx="3"/>
+      <path d="M104 16 l3 -6" fill="none" stroke-width="3"/>
+    </g>
+  </symbol>
+  <symbol id="pin" viewBox="0 0 120 120">
+    <path d="M60 8C39 8 26 24 26 44c0 24 34 62 34 62s34-38 34-62C94 24 81 8 60 8Z" fill="var(--c1)"/>
+    <use href="#moped" transform="translate(31,23) scale(0.46)" style="--c1:var(--c2)"/>
+  </symbol>
+</defs></svg>
+
+<!-- HEADER -->
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Door County Moped Rentals home">
+      <svg width="40" height="40" viewBox="0 0 120 120" style="--c1:var(--lake);--c2:var(--sun)" aria-hidden="true"><use href="#pin"/></svg>
+      <span>Door County Mopeds<small>Delivered to your ride</small></span>
+    </a>
+    <nav class="top-nav" aria-label="Primary">
+      <a href="#pricing">Pricing</a><a href="#how">How it works</a><a href="#ride">Where to ride</a><a href="#reviews">Reviews</a><a href="#faq">FAQ</a>
+    </nav>
+    <div class="top-cta">
+      <a class="top-phone" href="tel:+18473662770">Call/text 847-366-2770</a>
+      <a class="btn btn-primary" href="https://fareharbor.com/embeds/book/doorcountymopedrentals/?full-items=yes">Book now</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-copy reveal">
+      <p class="eyebrow on-dark">Delivered across the Door Peninsula</p>
+      <h1>We bring the moped <em>to your beach.</em></h1>
+      <p class="hero-sub">No trailer, no hauling, no bumming a ride. Pick your date, tell us where you'll be, and we deliver — with a quick lesson before you head out.</p>
+      <div class="proof"><span class="stars" aria-hidden="true">★★★★★</span><span><b>5.0</b> <small>· 21 five-star reviews on Google</small></span></div>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="https://fareharbor.com/embeds/book/doorcountymopedrentals/?full-items=yes">Book in about a minute <span class="arrow">→</span></a>
+        <span class="note">or call/text 847-366-2770</span>
+      </div>
+      <div class="hero-stats">
+        <div><b>$95</b>Half-day (4 hrs)</div>
+        <div><b>To you</b>Delivered across Door County</div>
+        <div><b>50cc</b>Automatic · easy ride</div>
+      </div>
+    </div>
+    <div class="hero-photo reveal">
+      <img src="https://doorcountymopedrentals.com/wp-content/uploads/2025/04/bluff-road.jpg" alt="A moped parked on a Door County bluff road" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<section class="trust" aria-label="Why it's easy">
+  <div class="wrap"><div class="trust-grid">
+    <div class="trust-item reveal"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 12h18M3 12l6-6M3 12l6 6" stroke="#0B2E31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>No trailer needed</b><small>We deliver, you just ride.</small></div></div>
+    <div class="trust-item reveal"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s7-6.5 7-11a7 7 0 10-14 0c0 4.5 7 11 7 11z" stroke="#0B2E31" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.4" stroke="#0B2E31" stroke-width="2"/></svg><div><b>We come to you</b><small>Anywhere across Door County.</small></div></div>
+    <div class="trust-item reveal"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#0B2E31" stroke-width="2"/><path d="M7 15h5M7 11h10" stroke="#0B2E31" stroke-width="2" stroke-linecap="round"/></svg><div><b>Just a regular license</b><small>No motorcycle license required.</small></div></div>
+    <div class="trust-item reveal"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13a7 7 0 0114 0" stroke="#0B2E31" stroke-width="2" stroke-linecap="round"/><path d="M3 13h18v3a2 2 0 01-2 2H5a2 2 0 01-2-2z" stroke="#0B2E31" stroke-width="2" stroke-linejoin="round"/></svg><div><b>18+ &amp; ready to cruise</b><small>Closed-toe shoes, that's it.</small></div></div>
+  </div></div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing band" id="pricing">
+  <div class="wrap">
+    <div class="head reveal"><p class="eyebrow">Simple, all-in pricing</p><h2>Pick your window. We handle the rest.</h2><p>Every rental is delivered and picked up. Park stickers included. The longer you keep it, the cheaper each day gets.</p></div>
+    <div class="price-grid">
+      <div class="price reveal"><div class="l"><b>Half day</b><small>4 hours · minimum rental</small></div><span class="amt">$95</span></div>
+      <div class="price reveal"><div class="l"><b>Full day</b><small>8 hours</small></div><span class="amt">$120</span></div>
+      <div class="price reveal"><div class="l"><b>2 days</b><small>32 hours</small></div><span class="amt">$220</span></div>
+      <div class="price reveal"><div class="l"><b>3 days</b><small>56 hours</small></div><span class="amt">$320</span></div>
+      <div class="price reveal"><div class="l"><b>4 days</b><small>80 hours</small></div><span class="amt">$420</span></div>
+      <div class="price feature reveal"><div class="l"><span class="tag">Best value</span><b>Every extra day</b><small>after your first 32 hours</small></div><span class="amt">+$100</span></div>
+    </div>
+    <div class="price-foot reveal"><span class="disc">💡 Booked online = your best rate, every time.</span><a class="btn btn-primary" href="https://fareharbor.com/embeds/book/doorcountymopedrentals/?full-items=yes">Check dates &amp; book <span class="arrow">→</span></a></div>
+  </div>
+</section>
+
+<!-- HOW -->
+<section class="how band" id="how">
+  <div class="wrap">
+    <div class="head reveal"><p class="eyebrow on-dark">How it works</p><h2>Three stops from tap to throttle.</h2></div>
+    <div class="steps">
+      <div class="step reveal"><span class="num">1</span><h3>Book online</h3><p>Choose your date, time, and how many mopeds. At checkout, drop your delivery address and helmet sizes.</p></div>
+      <div class="step reveal"><span class="num">2</span><h3>We deliver &amp; brief you</h3><p>We meet you at your address, check licenses, and give a hands-on lesson so you're comfortable before you ride.</p></div>
+      <div class="step reveal"><span class="num">3</span><h3>Ride</h3><p>Cruise the parks, beaches, and back roads. When your time's up, we meet you to pick them up. That's it.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT (real brothers' story) -->
+<section class="about band">
+  <div class="wrap">
+    <div class="txt reveal">
+      <p class="eyebrow">Who we are</p>
+      <h2>Family-run, born on the peninsula.</h2>
+      <p>We're two brothers with a passion for powersports and the charm of Door County. Growing up, our family spent summers exploring the peninsula by land and water — and some of our favorite memories are riding the family moped around the campground and into town, finding new spots with every trip.</p>
+      <p>Door County Moped Rentals is our way of handing that feeling to you: an easy, fun way to explore the area and make memories of your own.</p>
+    </div>
+    <div class="about-photo reveal"><img src="https://doorcountymopedrentals.com/wp-content/uploads/2025/04/Jon-and-Rob.jpg" alt="Jon and Rob, the brothers behind Door County Moped Rentals"></div>
+  </div>
+</section>
+
+<!-- RIDE -->
+<section class="ride band" id="ride">
+  <div class="wrap">
+    <div class="head reveal"><p class="eyebrow">Where to ride</p><h2>The whole peninsula is your route.</h2><p>A moped turns Door County into one long, breezy afternoon. Here's where riders love to point the handlebars.</p></div>
+    <div class="ride-grid">
+      <div class="spot wide reveal"><h3><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l3 6 6 .9-4.5 4.3 1 6.3L12 17.8 6.5 20.5l1-6.3L3 9.9 9 9z" stroke="#12595F" stroke-width="2" stroke-linejoin="round"/></svg>Peninsula State Park</h3><p>Wind through the woods to the overlooks, the beaches, the lighthouse, and the world-famous Eagle Tower.</p><span class="badge-incl">✓ Park sticker included on every moped</span></div>
+      <div class="spot reveal"><h3><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 17c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2" stroke="#12595F" stroke-width="2" stroke-linecap="round"/><path d="M3 21c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2" stroke="#12595F" stroke-width="2" stroke-linecap="round"/><circle cx="17" cy="7" r="3" stroke="#F4A31D" stroke-width="2"/></svg>The Highway 42 beach run</h3><p>Cruise the shoreline and pull off wherever the water looks good:</p><div class="route"><span>Egg Harbor</span><span>Fish Creek</span><span>Ephraim</span><span>Sister Bay</span><span>Ellison Bay</span><span>Garrett Bay</span><span>North Point</span></div></div>
+      <div class="spot reveal"><h3><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><ellipse cx="12" cy="16" rx="8" ry="3.5" stroke="#12595F" stroke-width="2"/><path d="M9 13c0-3 1.5-6 3-8 1.5 2 3 5 3 8" stroke="#12595F" stroke-width="2" stroke-linecap="round"/></svg>The inland lakes</h3><p>Quieter water, shady roads, easy swimming stops:</p><div class="route"><span>Europe Lake</span><span>Kangaroo Lake</span><span>Clark Lake</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FLEET -->
+<section class="fleet band" id="fleet">
+  <div class="wrap">
+    <div class="head reveal"><p class="eyebrow">The fleet</p><h2>Yamaha Zuma 50 — easy on, easy going.</h2><p>Automatic twist-and-go, 50cc, and light enough for first-timers. Your driver gives you a hands-on lesson before you ride off.</p></div>
+    <div class="fleet-grid">
+      <div class="moped-card reveal"><div class="pic"><img src="https://doorcountymopedrentals.com/wp-content/uploads/2025/04/Black-2009-2-1.png" alt="Yamaha Zuma 50YW in black" loading="lazy"></div><div class="body"><b>Yamaha Zuma 50YW — Black</b><small>Automatic · 50cc</small></div></div>
+      <div class="moped-card reveal"><div class="pic"><img src="https://doorcountymopedrentals.com/wp-content/uploads/2025/04/Blue-2009-2-1-1-1.jpg" alt="Yamaha Zuma 50YW in blue" loading="lazy"></div><div class="body"><b>Yamaha Zuma 50YW — Blue</b><small>Automatic · 50cc</small></div></div>
+      <div class="moped-card reveal"><div class="pic"><img src="https://doorcountymopedrentals.com/wp-content/uploads/2025/04/white-2015-2-1-1-1.jpg" alt="Yamaha Zuma 50FX" loading="lazy"></div><div class="body"><b>Yamaha Zuma 50FX</b><small>Automatic · 50cc</small></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews band" id="reviews">
+  <div class="wrap">
+    <div class="head reveal"><p class="eyebrow on-dark">What riders say</p><h2>Five stars, every time.</h2><p>Every rating on Google is a five. That kind of proof is the strongest thing on the page for turning a "maybe" into a booking.</p></div>
+    <div class="rating-summary reveal">
+      <div><div class="score">5.0</div><div class="stars" aria-hidden="true">★★★★★</div></div>
+      <div><div style="font-family:var(--display);font-weight:700;font-size:1.15rem">Rated 5.0 by every reviewer</div><div class="sub">Based on 21 Google reviews</div></div>
+      <a class="btn btn-ghost on-dark g" href="https://www.google.com/maps/place/Door+County+Moped+Rentals/@45.052118,-88.3251249,8z/data=!4m8!3m7!1s0xa609d1c3ced568b1:0xb7b7dd9eb4148612!8m2!3d45.059711!4d-87.006012!9m1!1b1!16s%2Fg%2F11xccpjs94!5m1!1e1" target="_blank" rel="noopener">Read them on Google →</a>
+    </div>
+    <div class="rev-grid">
+      <div class="rev reveal"><div class="stars" aria-hidden="true">★★★★★</div><p>We rented mopeds for two days and had the best time exploring Door County. Rob sent us a great route from Ephraim to North Port. Pick up and drop off was seamless. Mopeds were well maintained and in great shape. Will definitely rent from them again!</p><div class="who">— Cherie M. · 3 months ago</div></div>
+      <div class="rev reveal"><div class="stars" aria-hidden="true">★★★★★</div><p>Excellent experience. Rob was very nice and made renting the mopeds easy. The mopeds were delivered and picked up from our campsite. Highly recommend the experience.</p><div class="who">— Mike P. · 1 month ago</div></div>
+      <div class="rev reveal"><div class="stars" aria-hidden="true">★★★★★</div><p>What a great time! Robert made it all so easy! He gave easy instructions, delivered and picked up the mopeds when we were done. The price was very reasonable too!</p><div class="who">— Bridget P. · 1 year ago</div></div>
+    </div>
+    <div class="rev-cta reveal">
+      <a class="btn btn-primary" href="https://fareharbor.com/embeds/book/doorcountymopedrentals/?full-items=yes">Book your ride <span class="arrow">→</span></a>
+      <a class="btn btn-ghost on-dark" href="https://g.page/r/CRKGFLSe3be3EAI/review" target="_blank" rel="noopener">Leave a review</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq band" id="faq">
+  <div class="wrap">
+    <div class="head reveal"><p class="eyebrow">Good to know</p><h2>The stuff people usually call to ask.</h2><p>Answered here so you can book with confidence — and the phone stays open for the questions that really need a human.</p></div>
+    <div class="faq-list">
+      <details class="q reveal"><summary>Do I need a motorcycle license? <span class="ic" aria-hidden="true"></span></summary><div class="a">No — a regular, valid driver's license is all you need. Just show it to your driver at delivery.</div></details>
+      <details class="q reveal"><summary>Who can ride? <span class="ic" aria-hidden="true"></span></summary><div class="a">Riders must be 18 or older with a valid driver's license, wearing closed-toe shoes, and comfortable operating a moped. For safety, we're not able to rent to riders who are pregnant.</div></details>
+      <details class="q reveal"><summary>Do I need riding experience? <span class="ic" aria-hidden="true"></span></summary><div class="a">A little comfort on two wheels helps, but no license or prior moped experience is required. Your driver walks you through the controls and makes sure you're confident before you head out.</div></details>
+      <details class="q reveal"><summary>Is there a deposit? <span class="ic" aria-hidden="true"></span></summary><div class="a">Yes — a refundable deposit is held during your rental and returned once the mopeds are back in good shape.<!-- Noah: confirm exact deposit amount with Robert and add it here --></div></details>
+      <details class="q reveal"><summary>Where do you deliver? <span class="ic" aria-hidden="true"></span></summary><div class="a">Across Door County — just enter your delivery address at checkout, whether that's a rental, a restaurant, or the beach where your day starts.</div></details>
+      <details class="q reveal"><summary>What if it rains? <span class="ic" aria-hidden="true"></span></summary><div class="a">Door County weather can shift fast. If your rental day looks rough, get in touch and we'll work out the best option with you.<!-- Noah: confirm real weather/cancellation policy with Robert and update --></div></details>
+      <details class="q reveal"><summary>Are helmets included? <span class="ic" aria-hidden="true"></span></summary><div class="a">Yes — just add each rider's helmet size at checkout so we bring the right fit.</div></details>
+      <details class="q reveal"><summary>How long can I keep it? <span class="ic" aria-hidden="true"></span></summary><div class="a">Anything from a half day up to multiple days. Every day past your first 32 hours is just $100, so longer trips get cheaper by the day.</div></details>
+      <details class="q reveal"><summary>What should I bring? <span class="ic" aria-hidden="true"></span></summary><div class="a">A windbreaker or light jacket, sunglasses, sunscreen, a water bottle, a non-perishable snack, and closed-toe shoes. We handle the rest.</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL -->
+<section class="final band">
+  <div class="wrap">
+    <h2>Your ride's already <em>on the peninsula.</em></h2>
+    <p>Book online now and we'll meet you there with the keys.</p>
+    <div class="row">
+      <a class="btn btn-primary" href="https://fareharbor.com/embeds/book/doorcountymopedrentals/?full-items=yes">Book now <span class="arrow">→</span></a>
+      <a class="btn btn-ghost on-dark" href="tel:+18473662770">Call/text 847-366-2770</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="foot band">
+  <div class="wrap">
+    <div>
+      <a class="brand" href="#top" style="margin-bottom:14px">
+        <svg width="40" height="40" viewBox="0 0 120 120" style="--c1:var(--sun);--c2:var(--ink)" aria-hidden="true"><use href="#pin"/></svg>
+        <span>Door County Mopeds</span>
+      </a>
+      <p style="max-width:40ch">Family-run mopeds delivered anywhere across Door County. Rated 5.0 on Google. Book online, ride in minutes.</p>
+    </div>
+    <div><h4>Explore</h4><ul><li><a href="#pricing">Pricing</a></li><li><a href="#how">How it works</a></li><li><a href="#ride">Where to ride</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#faq">FAQ</a></li></ul></div>
+    <div><h4>Get in touch</h4><ul>
+      <li><a href="tel:+18473662770">Call/text 847-366-2770</a></li>
+      <li>Serving all of Door County · Sister Bay, WI</li>
+      <li>Daily, 8am–6pm (seasonal)</li>
+      <li><a href="https://www.facebook.com/profile.php?id=61575601152477" target="_blank" rel="noopener">Facebook</a></li>
+      <li><a href="https://fareharbor.com/embeds/book/doorcountymopedrentals/?full-items=yes"><strong style="color:var(--sun)">Book now →</strong></a></li>
+    </ul></div>
+    <div class="fine" style="grid-column:1/-1">© <span id="yr"></span> Door County Moped Rentals · Design mockup</div>
+  </div>
+</footer>
+
+<div class="mobibar" id="mobibar">
+  <a class="call" href="tel:+18473662770">Call/text</a>
+  <a class="book" href="https://fareharbor.com/embeds/book/doorcountymopedrentals/?full-items=yes">Book now</a>
+</div>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  const io = new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+  const bar=document.getElementById('mobibar');
+  new IntersectionObserver((es)=>{es.forEach(e=>bar.classList.toggle('show',!e.isIntersecting))},{threshold:0}).observe(document.getElementById('top'));
+  // in-page nav: handle scrolling directly so it works inside the sandboxed preview
+  document.querySelectorAll('a[href^="#"]').forEach(a=>{
+    a.addEventListener('click',e=>{
+      const id=a.getAttribute('href');
+      if(id.length>1){const t=document.querySelector(id);if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});}}
+    });
+  });
+</script>
+</body>
+</html>
